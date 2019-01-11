@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "7d43b9ae0b8bb1d0dc425d78dc577b0a",
-    "url": "/MovieApp/static/media/fa-brands-400.7d43b9ae.eot"
+    "revision": "50a544b5ad4d512e8db3cdc089823a00",
+    "url": "/MovieApp/static/media/fa-brands-400.50a544b5.ttf"
   },
   {
     "revision": "94ba4327504256c3558e",
@@ -24,16 +24,16 @@ self.__precacheManifest = [
     "url": "/MovieApp/static/media/fa-brands-400.b89c6c51.woff2"
   },
   {
-    "revision": "50a544b5ad4d512e8db3cdc089823a00",
-    "url": "/MovieApp/static/media/fa-brands-400.50a544b5.ttf"
-  },
-  {
-    "revision": "e65d96d04378217b8b5caff2fb1b62cb",
-    "url": "/MovieApp/static/media/fa-regular-400.e65d96d0.woff2"
-  },
-  {
     "revision": "dd4ff1196905f0585aef2c80486869e9",
     "url": "/MovieApp/static/media/fa-brands-400.dd4ff119.woff"
+  },
+  {
+    "revision": "fc5252e568503bfb163233ec63b8a2ce",
+    "url": "/MovieApp/static/media/fa-regular-400.fc5252e5.woff"
+  },
+  {
+    "revision": "7d43b9ae0b8bb1d0dc425d78dc577b0a",
+    "url": "/MovieApp/static/media/fa-brands-400.7d43b9ae.eot"
   },
   {
     "revision": "8e9f0ee6d016526776c27f91fea55cca",
@@ -44,8 +44,12 @@ self.__precacheManifest = [
     "url": "/MovieApp/static/js/main.94ba4327.chunk.js"
   },
   {
-    "revision": "fc5252e568503bfb163233ec63b8a2ce",
-    "url": "/MovieApp/static/media/fa-regular-400.fc5252e5.woff"
+    "revision": "e65d96d04378217b8b5caff2fb1b62cb",
+    "url": "/MovieApp/static/media/fa-regular-400.e65d96d0.woff2"
+  },
+  {
+    "revision": "8086e197694282b26c7b729945ecc377",
+    "url": "/MovieApp/static/media/fa-solid-900.8086e197.woff2"
   },
   {
     "revision": "deb8619e67992d3fa088b5dcbb8cff36",
@@ -58,10 +62,6 @@ self.__precacheManifest = [
   {
     "revision": "52b8345b6d8e11988d8db917c366b4da",
     "url": "/MovieApp/static/media/fa-solid-900.52b8345b.woff"
-  },
-  {
-    "revision": "8086e197694282b26c7b729945ecc377",
-    "url": "/MovieApp/static/media/fa-solid-900.8086e197.woff2"
   },
   {
     "revision": "f72d546abcc27880adf8428792c72519",
