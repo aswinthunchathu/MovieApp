@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect, HashRouter } from 'react-router-dom';
 
 import Header from './components/header.component';
 import SearchResults from './containerComponent/search-result.container';
@@ -17,16 +17,17 @@ const NoMatch = ({ location }) => (
 const AppRoute = () => {
     return (
         <div className="d-flex flex-column h-100">
-            <Router>
+            <HashRouter>
                 <>
                     <Header />
                     <Switch>
-                        <Route exact path="/" component={FeaturedMovies} />
+                        <Route exact path="/" render={() => <Redirect to="/FeaturedMovies" />} />
+                        <Route exact path="/FeaturedMovies" component={FeaturedMovies} />
                         <Route exact path="/Search" component={SearchResults} />
                         <Route component={NoMatch} />
                     </Switch>
                 </>
-            </Router>
+            </HashRouter>
         </div>
     )
 }

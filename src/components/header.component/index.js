@@ -14,10 +14,10 @@ class Header extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
-                                <NavLink exact to="/" className="nav-link">Featured Movies</NavLink>
+                                <NavLink exact to="/FeaturedMovies" className="nav-link">Featured Movies</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink exact to="/search" className="nav-link">Search Movie</NavLink>
+                                <NavLink exact to="/Search" className="nav-link">Search Movie</NavLink>
                             </li>
                         </ul>
                     </div>
