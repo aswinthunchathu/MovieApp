@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "8e9f0ee6d016526776c27f91fea55cca",
-    "url": "/MovieApp/static/media/fa-regular-400.8e9f0ee6.eot"
+    "revision": "e65d96d04378217b8b5caff2fb1b62cb",
+    "url": "/MovieApp/static/media/fa-regular-400.e65d96d0.woff2"
   },
   {
-    "revision": "9c65d6517a652a691202",
+    "revision": "0b154751a4d6abc322e9",
     "url": "/MovieApp/static/css/main.dba1e07f.chunk.css"
   },
   {
-    "revision": "fef43c1fd872ef7f1880483d9b63ccf2",
-    "url": "/MovieApp/static/media/fa-brands-400.fef43c1f.svg"
+    "revision": "27603739fe78fee587c7b84873475b61",
+    "url": "/MovieApp/static/media/fa-solid-900.27603739.svg"
   },
   {
     "revision": "4db2219ac7b57e2cc566",
@@ -28,28 +28,28 @@ self.__precacheManifest = [
     "url": "/MovieApp/static/media/fa-brands-400.7d43b9ae.eot"
   },
   {
+    "revision": "8e9f0ee6d016526776c27f91fea55cca",
+    "url": "/MovieApp/static/media/fa-regular-400.8e9f0ee6.eot"
+  },
+  {
     "revision": "dd4ff1196905f0585aef2c80486869e9",
     "url": "/MovieApp/static/media/fa-brands-400.dd4ff119.woff"
-  },
-  {
-    "revision": "e65d96d04378217b8b5caff2fb1b62cb",
-    "url": "/MovieApp/static/media/fa-regular-400.e65d96d0.woff2"
-  },
-  {
-    "revision": "50a544b5ad4d512e8db3cdc089823a00",
-    "url": "/MovieApp/static/media/fa-brands-400.50a544b5.ttf"
-  },
-  {
-    "revision": "9c65d6517a652a691202",
-    "url": "/MovieApp/static/js/main.9c65d651.chunk.js"
   },
   {
     "revision": "fc5252e568503bfb163233ec63b8a2ce",
     "url": "/MovieApp/static/media/fa-regular-400.fc5252e5.woff"
   },
   {
+    "revision": "0b154751a4d6abc322e9",
+    "url": "/MovieApp/static/js/main.0b154751.chunk.js"
+  },
+  {
     "revision": "deb8619e67992d3fa088b5dcbb8cff36",
     "url": "/MovieApp/static/media/fa-regular-400.deb8619e.ttf"
+  },
+  {
+    "revision": "50a544b5ad4d512e8db3cdc089823a00",
+    "url": "/MovieApp/static/media/fa-brands-400.50a544b5.ttf"
   },
   {
     "revision": "734248d027cbaac7f03c0d931ec95593",
@@ -72,15 +72,15 @@ self.__precacheManifest = [
     "url": "/MovieApp/static/media/fa-solid-900.1709a281.ttf"
   },
   {
-    "revision": "27603739fe78fee587c7b84873475b61",
-    "url": "/MovieApp/static/media/fa-solid-900.27603739.svg"
+    "revision": "fef43c1fd872ef7f1880483d9b63ccf2",
+    "url": "/MovieApp/static/media/fa-brands-400.fef43c1f.svg"
   },
   {
     "revision": "4db2219ac7b57e2cc566",
     "url": "/MovieApp/static/css/1.b278e324.chunk.css"
   },
   {
-    "revision": "8b97293c465e7861d84efc7e1b94889f",
+    "revision": "05f60bee16bdb112815ab63ce3728c23",
     "url": "/MovieApp/index.html"
   }
 ];
