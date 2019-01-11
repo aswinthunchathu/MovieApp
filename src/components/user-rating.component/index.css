@@ -1,0 +1,8 @@
+[user-rating].User-ratings{
+    list-style-type: none;
+    font-size: 14px;
+}
+
+[user-rating].User-ratings li + li{
+    margin-top: 5px;
+}

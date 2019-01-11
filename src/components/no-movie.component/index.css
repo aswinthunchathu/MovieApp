@@ -1,0 +1,9 @@
+[no-movie].no-content{
+    min-height: 300px;
+}
+
+@media (max-width : 575px){
+    [no-movie].no-content h2{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,22 @@
+.navbar[header-component].navbar-expand .container{
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+.navbar[header-component] li a{
+    transition: all 0.5s ease;
+}
+
+.navbar[header-component] li a:hover{
+    transform: scale(.9);
+}
+
+.navbar[header-component] li a.active{
+    transform: scale(1);
+}
+
+@media (min-width : 768px){
+    .navbar[header-component] li a{
+        font-size: 24px;
+    }
+}
