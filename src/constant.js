@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_KEY = '6c3a2d45';
-const BASE_URL = `http://www.omdbapi.com/?apikey=${API_KEY}&`;
+const BASE_URL = `https://www.omdbapi.com/?apikey=${API_KEY}&`;
 const API = axios.create({
     baseURL: BASE_URL
 });
