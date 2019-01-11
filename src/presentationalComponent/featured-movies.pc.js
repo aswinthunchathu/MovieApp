@@ -27,7 +27,7 @@ class FeaturedMovies extends Component {
             fetching ? (<Spinner></Spinner>) :
             fetched && movies.length > 0 ? 
               movies.map((movie, index) => (
-                <div className="col-lg-6" key={index}>
+                <div className="col-lg-6 featured-movie" key={index}>
                     <MoviePreview movie={movie}></MoviePreview>
                 </div>
               )) : (<NoMovie icon="far fa-frown-open fa-7x" cssClass="text-muted" text="No Movies found"></NoMovie>)

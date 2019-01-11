@@ -69,8 +69,7 @@ class Movie extends Component {
                             <UserRating ratings={movie.Ratings}></UserRating>
                     </div>
                 </div>
-                <div className="col-lg-9 col-md-8">
-
+                <div className="col-lg-9 col-md-8 mt-3 mt-md-0">
                     <div className="row">
                         <div className="col-12 text-uppercase">
                             <h1 className="mb-4">{movie.Title}</h1>
@@ -109,7 +108,7 @@ class Movie extends Component {
                                     </div>
 
                                 </div>
-                                <div className="col-md-12 col-lg-6 mt-md-3 mt-lg-0">
+                                <div className="col-md-12 col-lg-6 mt-3 mt-lg-0">
                                     <div className="row">
                                         <div className="col">
                                             <h5 className="text-muted mb-0">Director</h5>
@@ -132,7 +131,7 @@ class Movie extends Component {
 
                         <div className="col-12 mt-3">
                             {this.state.showFullPlot ? movie.Plot : this.limitText(movie.Plot)}
-                            {this.state.showFullPlot &&  <button type="button" className="btn btn-link"  onClick={this.toggleFullText} >show less</button>}
+                            {this.state.showFullPlot &&  <button type="button" className="btn btn-link"  onClick={this.toggleFullText}>&nbsp;show less</button>}
                         </div>
 
                         <div className="mt-2 col-12 d-block d-md-none">

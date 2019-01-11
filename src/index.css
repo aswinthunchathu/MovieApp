@@ -9,3 +9,9 @@ body {
 .show-cursor{
   cursor: pointer;
 }
+
+@media (max-width:767px){
+  .featured-movie + .featured-movie{
+    margin-top: 30px;
+  }
+}

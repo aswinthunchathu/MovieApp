@@ -1,5 +1,12 @@
 [movie-preview] .star-position{
-    top: -20px;
-    left: -3px;
     transform: rotate(8deg);
+    top:0;
+    left:5px;
+}
+
+@media (min-width:768px){
+    [movie-preview] .star-position{
+        top: -20px;
+        left: -3px;
+    }
 }
