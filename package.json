@@ -1,6 +1,7 @@
 {
   "name": "the-movie-app",
   "version": "0.1.0",
+  "homepage": "http://aswinthunchathu.github.io/MovieApp",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,6 +33,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.6.3"
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "gh-pages": "^2.0.1"
   }
 }
